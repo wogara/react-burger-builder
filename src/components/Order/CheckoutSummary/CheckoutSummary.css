@@ -3,9 +3,19 @@
     width: 80%;
     margin: auto;
 }
+.BurgerBox {
+    width: 100%;
+    margin: auto;
+}
 
 @media (min-width: 600px) {
     .CheckoutSummary {
         width: 500px;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    .BurgerBox{
+        margin: auto -15%;
     }
 }
